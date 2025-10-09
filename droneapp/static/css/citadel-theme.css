@@ -1,0 +1,226 @@
+/* Citadel North Theme */
+:root {
+    --citadel-dark: #2B2D2A;
+    --citadel-gold: #FDB913;
+    --citadel-white: #FFFFFF;
+    --citadel-dark-accent: #1a1b19;
+    --citadel-gold-hover: #e5a610;
+}
+
+/* Base styles */
+body {
+    background-color: var(--citadel-dark) !important;
+    color: var(--citadel-white) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Page and content */
+.ui-page {
+    background-color: var(--citadel-dark) !important;
+}
+
+.ui-content {
+    background-color: var(--citadel-dark) !important;
+    color: var(--citadel-white) !important;
+}
+
+/* Header styling */
+.ui-header {
+    background-color: var(--citadel-dark-accent) !important;
+    border-color: var(--citadel-gold) !important;
+    border-bottom: 3px solid var(--citadel-gold) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ui-header h1 {
+    color: var(--citadel-white) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-header .ui-btn {
+    background-color: var(--citadel-gold) !important;
+    border-color: var(--citadel-gold) !important;
+    color: var(--citadel-dark) !important;
+    text-shadow: none !important;
+    font-weight: 600;
+}
+
+.ui-header .ui-btn:hover {
+    background-color: var(--citadel-gold-hover) !important;
+}
+
+/* Logo in header */
+.header-logo {
+    height: 40px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+/* Buttons */
+.ui-btn,
+a.ui-btn {
+    background-color: var(--citadel-gold) !important;
+    border-color: var(--citadel-gold) !important;
+    color: var(--citadel-dark) !important;
+    text-shadow: none !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.ui-btn:hover,
+a.ui-btn:hover {
+    background-color: var(--citadel-gold-hover) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(253, 185, 19, 0.3);
+}
+
+.ui-btn:active,
+a.ui-btn:active {
+    transform: translateY(0);
+}
+
+/* Button icons */
+.ui-btn-icon-notext.ui-icon-carat-u:after,
+.ui-btn-icon-notext.ui-icon-carat-d:after,
+.ui-btn-icon-notext.ui-icon-arrow-u:after,
+.ui-btn-icon-notext.ui-icon-arrow-d:after,
+.ui-btn-icon-notext.ui-icon-arrow-l:after,
+.ui-btn-icon-notext.ui-icon-arrow-r:after,
+.ui-btn-icon-notext.ui-icon-forward:after,
+.ui-btn-icon-notext.ui-icon-back:after {
+    background-color: var(--citadel-dark) !important;
+}
+
+/* Control groups */
+.ui-controlgroup {
+    background: transparent !important;
+}
+
+.ui-controlgroup .ui-btn {
+    margin: 5px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--citadel-white) !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    border-bottom: 2px solid var(--citadel-gold);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Controller box */
+.controller-box {
+    background-color: rgba(42, 45, 42, 0.6);
+    border: 1px solid rgba(253, 185, 19, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Details box */
+.details-box {
+    background-color: rgba(42, 45, 42, 0.6);
+    border: 1px solid rgba(253, 185, 19, 0.3);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.details {
+    color: var(--citadel-white);
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Gamepad display */
+.gamepad {
+    color: var(--citadel-gold);
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+/* Table styling */
+table {
+    background-color: transparent;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Slider/Range input */
+input[type="range"] {
+    background: var(--citadel-dark-accent) !important;
+}
+
+.ui-slider-track {
+    background-color: var(--citadel-dark-accent) !important;
+    border-color: var(--citadel-gold) !important;
+}
+
+.ui-slider-handle {
+    background-color: var(--citadel-gold) !important;
+    border-color: var(--citadel-gold) !important;
+}
+
+.ui-slider-bg {
+    background-color: var(--citadel-gold) !important;
+}
+
+/* Image/iframe containers */
+img, iframe {
+    border: 2px solid var(--citadel-gold);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: var(--citadel-dark-accent);
+}
+
+/* Links */
+a {
+    color: var(--citadel-gold) !important;
+}
+
+a:hover {
+    color: var(--citadel-gold-hover) !important;
+}
+
+/* Shadow effects */
+.ui-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Custom pulse animation for active states */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+.ui-btn:active {
+    animation: pulse 0.3s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .controller-box,
+    .details-box {
+        padding: 15px;
+        margin: 15px 10px;
+    }
+
+    .header-logo {
+        height: 30px;
+        margin-right: 10px;
+    }
+}

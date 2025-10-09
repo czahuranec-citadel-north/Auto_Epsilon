@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+    .welcome-section {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: rgba(42, 45, 42, 0.6);
+        border: 1px solid rgba(253, 185, 19, 0.3);
+        border-radius: 8px;
+        margin: 20px auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        max-width: 600px;
+    }
+
+    .welcome-logo {
+        max-width: 400px;
+        width: 90%;
+        margin-bottom: 30px;
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));
+    }
+
+    .nav-list {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    .nav-list .ui-btn {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+</style>
+
+<div class="welcome-section">
+    <img src="/static/img/citadel-north-logo.png" alt="Citadel North" class="welcome-logo">
+    <h2>Drone Control System</h2>
+    <p>Welcome to the Citadel North drone simulation and control interface.</p>
+</div>
+
+<ul data-role="listview" class="nav-list">
+    <li><a href="/controller/">Launch Controller</a></li>
+</ul>
+{% endblock %}
