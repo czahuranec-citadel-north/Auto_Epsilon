@@ -1,0 +1,6 @@
+ssh pi@172.20.10.2
+raspberry
+
+python control.py
+
+
