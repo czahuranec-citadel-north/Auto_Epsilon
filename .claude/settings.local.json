@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(taskkill:*)",
+      "Read(//c/Users/Chris/Desktop/**)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(.mavsdk_server.exe tcp://192.168.56.101:5762)",
+      "WebSearch",
+      "WebFetch(domain:ardupilot.org)",
+      "WebFetch(domain:github.com)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:discuss.ardupilot.org)",
+      "Bash(start /B mavsdk_server.exe:*)",
+      "Read(//c/Users/Chris/OneDrive - Citadel North/Local Code/**)",
+      "Bash(./mavsdk_server.exe tcp://192.168.56.101:5762)",
+      "Bash(timeout:*)",
+      "Bash(tasklist:*)",
+      "Bash(cmd /c \"taskkill /IM python.exe /F 2>&1 || exit /b 0\")",
+      "Bash(curl:*)",
+      "Bash(cmd /c \"taskkill /F /IM python.exe\")",
+      "Bash(for i in {1..5})",
+      "Bash(do curl -s -X POST http://127.0.0.1:5000/api/command/ -H \"Content-Type: application/x-www-form-urlencoded\" -d \"command=forward\")",
+      "Bash(done)",
+      "Bash(BashOutput 27e845)",
+      "Bash(git log:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
